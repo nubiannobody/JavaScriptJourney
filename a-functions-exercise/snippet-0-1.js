@@ -15,3 +15,11 @@ console.log("third");
 console.log("fourth");
 whistle();
 
+// This code will print 
+// first
+// second
+// hey 
+// programmers
+// third
+// fourth
+// doot 

@@ -3,8 +3,10 @@
 // Indicating whether or not the string ends with the character 't'.
 
 let endsWithT = function (str){
-if (str.indexOf('t') > -1) {
+if (str.indexOf('t') == str.length -1) {
     return true;
+} else {
+    return false
 }
 };
 

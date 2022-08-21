@@ -10,4 +10,8 @@ console.log(result.length);
 console.log(result[0]);
 console.log(result[result.length] -1);
 
-
+// This code will print 
+// POTATO!!
+// 8
+// p
+// !

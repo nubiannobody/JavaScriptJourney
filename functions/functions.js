@@ -16,3 +16,25 @@ let calculateAverages = function(num1, num2){
 };
 
 calculateAverages(10, 15);
+
+let calculateAverages2 = function (num1, num2) {
+    let sum = num1 + num2;
+    let finalAvg = sum / 2;
+    return finalAvg;
+};
+
+// function call 
+console.log(calculateAverages2(10, 15));
+
+let yellOrWhisper = function (str) {
+    if (str.length > 4) {
+        return str.toUpperCase();
+    } else {
+        return str.toLowerCase();
+    }
+};
+
+console.log(yellOrWhisper('exCellEnt')); // 'EXCELLENT'
+console.log(yellOrWhisper('doG')); // 'dog'
+console.log(yellOrWhisper('mE')); // 'me'
+

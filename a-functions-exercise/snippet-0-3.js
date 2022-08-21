@@ -4,11 +4,22 @@ let average = function (num1, num2) {
     return (num1 + num2) / 2;
 };
 
-console.log(average(5, 10));
-console.log(average(20, 26));
-console.log(average(50, 100) + 2);
+console.log(average(5, 10)); // 7.5
+console.log(average(20, 26)); // 23
+console.log(average(50, 100) + 2); // 77
 
-let a = 21 + 3;
-let b = 20;
-let n = average(a, b);
-console.log(average(n, 18));
+let a = 21 + 3; // 24
+let b = 20; // 20
+let n = average(a, b); // 22
+console.log(average(n, 18)); // 20
+
+// This code will print 
+// calculating...
+// 7.5
+// calculating...
+// 23
+// calculating...
+// 77
+
+// calculating...
+// 20

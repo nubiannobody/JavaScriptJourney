@@ -2,6 +2,14 @@
 // The function should return a 
 // Boolean indicating whether or not the number is divisible by 4.
 
+let isDivBy4 = function(num) {
+    if(num / 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+};
+
 console.log(isDivBy4(8)); // true
 console.log(isDivBy4(12)); // true
 console.log(isDivBy4(24)); // true

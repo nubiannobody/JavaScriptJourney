@@ -3,7 +3,7 @@ let howMany = function () {
     return 42;
 };
 
-console.log(howMany); // undefinded
+console.log(howMany); // [Function: howMany]
 console.log(howMany()); // 42
 
 const theAnswer = howMany();
@@ -13,3 +13,4 @@ let howMuch = function () {
     5;
 };
 console.log(howMuch()); // undefined
+

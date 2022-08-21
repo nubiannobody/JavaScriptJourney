@@ -3,7 +3,7 @@
 // Boolean indicating whether or not the number is divisible by 4.
 
 let isDivBy4 = function(num) {
-    if(num / 2 === 0) {
+    if(num % 4 === 0) {
         return true;
     } else {
         return false;

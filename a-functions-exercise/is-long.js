@@ -2,9 +2,15 @@
 // The function should return a boolean
 // Indicating whether or not the string is longer than 5 characters
 
+let isLong = function (str) {
+    if (str > 5) {
+        return true;
+    }
+}
+
 console.log(isLong("pie")); // false
-console.log(isLong("kite"));
-console.log(isLong("kitty"));
-console.log(isLong("telescope"));
-console.log(isLong("thermometer"));
-console.log(isLong("restaurant"));
+console.log(isLong("kite")); // false 
+console.log(isLong("kitty")); // false
+console.log(isLong("telescope")); // true  
+console.log(isLong("thermometer")); // true 
+console.log(isLong("restaurant")); // true 

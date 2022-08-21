@@ -5,7 +5,7 @@ let exclaim = function (str) {
 };
 
 let result = exclaim("potato");
-console.log(result);
+console.log(result); // POTATO!!
 console.log(result.length);
 console.log(result[0]);
 console.log(result[result.length] -1);

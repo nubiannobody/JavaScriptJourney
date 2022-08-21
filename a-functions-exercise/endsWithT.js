@@ -2,6 +2,13 @@
 // The function should return a boolean 
 // Indicating whether or not the string ends with the character 't'.
 
+let endsWithT = function (str){
+if (str.indexOf('t') > -1) {
+    return true;
+}
+};
+
+
 console.log(endsWithT("smart")); // true
 console.log(endsWithT("racket")); // true
 console.log(endsWithT("taco")); // false

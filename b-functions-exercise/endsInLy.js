@@ -2,13 +2,21 @@
 // And returns a boolean indicating
 // whether or not the string ends in the substring 'ly'.
 
-let endsInLy = function (str) {
-let substring = str.indexOf('ly');
-if (substring == -1) {
-    return false;
-} else {
-    return true;
-}
+// let endsInLy = function (str) {
+// let substring = str.indexOf('ly');
+// if (substring == -1) {
+//     return false;
+// } else {
+//     return true;
+// }
+// };
+
+//alvin's way 
+let endsInLy = function(str) {
+    let secondLast = str[str.length - 2];
+    let last = str[str.length - 1];
+
+    return secondLast === 'l' && last === 'y';
 };
 
 console.log(endsInLy("pretty")); // false

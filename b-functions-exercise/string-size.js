@@ -11,9 +11,7 @@ if (str.length < 5) {
     return 'medium';
 } else if (str.length > 5) {
     return 'large';
-} else {
-    return 'enter a string longer than 3 characters';
-}
+} 
 };
 
 console.log(stringSize("cat")); // 'small'

@@ -10,6 +10,11 @@ if (str.indexOf('t') == str.length -1) {
 }
 };
 
+let endsWithT = function (str) {
+    let lastChar = str[str.length - 1];
+    return lastChar === 't';
+}; // alvin's way
+
 
 console.log(endsWithT("smart")); // true
 console.log(endsWithT("racket")); // true

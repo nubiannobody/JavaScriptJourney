@@ -2,13 +2,13 @@
 // The function should return true if exactly one of the arguments is true.
 // If BOTH arguments are true, then it should return false.
 
-let oneOrNone = function (bool1, bool2) {
+let oneOrNone = function (val1, val2) {
 
-    if (bool1 == true && bool2 == false) {
+    if (val1 == true && val2 == false) {
         return true;
-    } else if (bool1 == false && bool2 == true) {
+    } else if (val1 == false && val2 == true) {
         return true;
-    } else if (bool1 && bool2 == true) {
+    } else if (val1 && val2 == true) {
         return false;
     }
 };

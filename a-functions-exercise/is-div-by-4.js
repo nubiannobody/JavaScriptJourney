@@ -10,6 +10,10 @@ let isDivBy4 = function(num) {
     }
 };
 
+let isDivBy4 = function(num) {
+    return num % 4 === 0;
+}; // shorter way
+
 console.log(isDivBy4(8)); // true
 console.log(isDivBy4(12)); // true
 console.log(isDivBy4(24)); // true

@@ -12,11 +12,16 @@
 // };
 
 //alvin's way 
-let endsInLy = function(str) {
-    let secondLast = str[str.length - 2];
-    let last = str[str.length - 1];
+// let endsInLy = function(str) {
+//     let secondLast = str[str.length - 2];
+//     let last = str[str.length - 1];
 
-    return secondLast === 'l' && last === 'y';
+//     return secondLast === 'l' && last === 'y';
+// };
+
+// using built in method
+let endsInLy = function (str) {
+    return str.endsWith('ly');
 };
 
 console.log(endsInLy("pretty")); // false

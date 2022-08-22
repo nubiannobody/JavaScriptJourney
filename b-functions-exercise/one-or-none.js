@@ -4,11 +4,9 @@
 
 let oneOrNone = function (val1, val2) {
 
-    if (val1 == true && val2 == false) {
+    if ((val1 || val2) && !(val1 && val2)) {
         return true;
-    } else if (val1 == false && val2 == true) {
-        return true;
-    } else if (val1 && val2 == true) {
+    } else {
         return false;
     }
 };

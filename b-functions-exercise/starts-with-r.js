@@ -10,6 +10,12 @@ let startsWithR = function (str) {
  }
 };
 
+let startsWithR = function(str) {
+    return str[0] === 'r' || str[0] === 'R';
+}
+
+// Alvin's way
+
 console.log(startsWithR("roger that")); // true
 console.log(startsWithR("Row, row, row your boat")); // true
 console.log(startsWithR("slip")); // false

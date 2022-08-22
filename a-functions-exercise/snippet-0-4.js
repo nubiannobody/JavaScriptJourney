@@ -8,7 +8,7 @@ let result = exclaim("potato");
 console.log(result); // POTATO!!
 console.log(result.length);
 console.log(result[0]);
-console.log(result[result.length] -1);
+console.log(result[result.length -1]);
 
 // This code will print 
 // POTATO!!

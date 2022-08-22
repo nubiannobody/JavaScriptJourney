@@ -10,6 +10,10 @@ let isLong = function (str) {
     }
 };
 
+let isLong = function (str) {
+    return str.length > 5;
+}; // shorter way
+
 console.log(isLong("pie")); // false
 console.log(isLong("kite")); // false 
 console.log(isLong("kitty")); // false

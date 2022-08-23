@@ -2,6 +2,14 @@
 // return the uppercase version of the string if the boolean is true. The function should return the
 // lowercase version of the string if the boolean is false.
 
+let caseChange = function(str, bool) {
+    if (bool == true) {
+        return str.toUpperCase();
+    } else {
+        return str.toLowerCase();
+    }
+}
+
 console.log(caseChange("Super", true)); // 'SUPER'
 console.log(caseChange("Super", false)); // 'super'
 console.log(caseChange("tAmBourine", true)); // 'TAMBOURINE'

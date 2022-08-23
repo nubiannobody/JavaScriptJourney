@@ -3,9 +3,7 @@
 // ignore any differences in capitalization.
 
 let contains = function (str1, str2) {
-if (str2.indexOf(str1)) {
-    return true;
-}
+return str1.indexOf(str2) > -1;
 };
 
 console.log(contains("caterpillar", "pill")); // true

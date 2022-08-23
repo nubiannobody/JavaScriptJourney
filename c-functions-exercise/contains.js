@@ -6,7 +6,7 @@ let contains = function (str1, str2) {
 let lowerCasestr1 = str1.toLowerCase();
 let lowerCasestr2 = str2.toLowerCase();
 
-return lowerCasestr1.indexOf(lowerCasestr2) > -1;
+return lowerCasestr1.indexOf(lowerCasestr2) > -1; 
 };
 
 console.log(contains("caterpillar", "pill")); // true

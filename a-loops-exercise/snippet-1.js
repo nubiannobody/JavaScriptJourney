@@ -6,3 +6,11 @@ for (let i = 0; i < 5; i++) {
 }
 
 console.log("goodbye");
+
+// hello
+// code
+// code 
+// code
+// code
+// code
+// goodbye

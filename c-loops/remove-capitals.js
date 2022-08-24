@@ -2,11 +2,11 @@
 // new version of the string with all capital letters removed.
 
 let removeCapitals = function (str) {
-    let noCapitals = '';
-    for (let i = 0; i < str.length; i++) {
-        let char = str[i];
-        if (char === char.toLowerCase()) {
-           noCapitals += char; 
+    let noCapitals = ''; // empty string that will store the characters that are not capital
+    for (let i = 0; i < str.length; i++) { // iterates through the string 
+        let char = str[i]; // the index of each character in the string
+        if (char === char.toLowerCase()) { // checks if the character is equal to the lowercase value of the character
+           noCapitals += char; // adds the characters that are lowercased to the empty string noCapitals
         }
     }
 

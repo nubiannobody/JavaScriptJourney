@@ -7,6 +7,8 @@ let censorE = function (str) {
         let char = str[i];
         if (char === 'e'){
             noE += '*';
+        } else {
+            noE += char;
         }
     }
     return noE;

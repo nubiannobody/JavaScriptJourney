@@ -14,5 +14,5 @@ let removeCapitals = function (str) {
 };
 
 console.log(removeCapitals("fOrEver")); // 'frver'
-// console.log(removeCapitals("raiNCoat")); // 'raioat'
-// console.log(removeCapitals("cElLAr Door")); // 'clr oor'
+console.log(removeCapitals("raiNCoat")); // 'raioat'
+console.log(removeCapitals("cElLAr Door")); // 'clr oor'

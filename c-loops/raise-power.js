@@ -12,3 +12,14 @@ console.log(raisePower(2, 5)); // 32
 console.log(raisePower(4, 3)); // 64
 console.log(raisePower(10, 4)); // 10000
 console.log(raisePower(7, 2)); // 49
+
+// alvin's way 
+
+let raisePower = function (base, exponent) {
+    for (let i = 1; i <= exponent; i++) {
+        product *= base;
+    }
+    
+    return product;
+};
+

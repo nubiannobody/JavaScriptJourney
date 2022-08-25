@@ -2,6 +2,12 @@
 // print out the first five multiples of the given number. The function doesn't need to return any
 // value. It should just print to the terminal.
 
+let fiveMultiplesOf = function (num) {
+    for (let i = 1; i < 6; i++) {
+        console.log(num * i);
+    }
+}
+
 fiveMultiplesOf(7);
 // prints
 //  7
@@ -9,6 +15,8 @@ fiveMultiplesOf(7);
 //  21
 //  28
 //  35
+
+console.log();
 
 fiveMultiplesOf(3);
 // prints

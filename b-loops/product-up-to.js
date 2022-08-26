@@ -5,12 +5,13 @@
 // For example, productUpTo(4) should return 24 because 1 * 2 * 3 * 4 = 24
 
 let productUpTo = function (max) {
-    let total = 0;
-for (let i = 1; i <= max; i++) {
+let total = 1;
+for (let i = 1; i<= max; i++) {
+    total *= i; 
 }
-return total += i;
+return total;
 };
 
 console.log(productUpTo(4)); // 24
-// console.log(productUpTo(5)); // 120
-// console.log(productUpTo(7)); // 5040
+console.log(productUpTo(5)); // 120
+console.log(productUpTo(7)); // 5040
